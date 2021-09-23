@@ -1,0 +1,19 @@
+1- Vous proposent des idées de design et qui peuvent même vous donner le code HTML/CSS tout prêt !
+https://html5up.net/
+
+2-Pour convertir une vidéo dans ces différents formats, je vous conseille l'excellent logiciel gratuit MIRO VIDEO CONVERTER.
+
+3- référence exhaustive des éléments HTML
+https://developer.mozilla.org/fr/docs/Web/HTML/Element
+
+4-Un outil très utile pour comprendre la manière dont fonctionne Open Graph est le Débogueur de Facebook 
+ https://developers.facebook.com/tools/debug/
+
+5- Cherchez une page contenant des balises sémantiques et laissez Google vous afficher ce qu’il en a compris ;
+https://developers.google.com/structured-data/testing-tool/
+
+6-  Créez vos premières balises sémantiques grâce à un formulaire qui vous affichera le code HTML correspondant. 
+http://schema-creator.org/
+
+7- Fonctionnement de CSS GRID
+https://www.w3schools.com/cssref/pr_grid-template-columns.asp
