@@ -55,7 +55,7 @@ background-color: #F2F2F2;
 /*HEADER*/
 /*taille du block qui contient les liens*/
 .sizeLiens{
-	width: 37%;
+	width: 100%;
 }
 
 .colorLiens2{
@@ -472,4 +472,14 @@ background-color: #F2F2F2;
 }
 .margeBlocFoot-3{
 	margin-right: 15%;
+}
+
+/*MEDIA QUERIES*/
+
+@media all and (max-width:  1280px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
 }
