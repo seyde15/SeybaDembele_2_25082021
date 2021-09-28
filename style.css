@@ -55,7 +55,11 @@ background-color: #F2F2F2;
 /*HEADER*/
 /*taille du block qui contient les liens*/
 .sizeLiens{
-	width: 100%;
+	width: 100  %;
+}
+/*taille d'hebergement et activités*/
+.sizeLien1-2{
+	margin-left: 60%;
 }
 
 .colorLiens2{
@@ -363,7 +367,7 @@ background-color: #F2F2F2;
 	height: 160px;
 	border-radius: 15px 0 0 15px ;
 }
-.TitrePopulaireH3{
+.TitrePopulaireH2{
 	margin-bottom: 30px;
 }
 
@@ -476,10 +480,54 @@ background-color: #F2F2F2;
 
 /*MEDIA QUERIES*/
 
-@media all and (max-width:  1280px)
+@media screen and (max-width: 1295px)
 {
-	#bloc_page
-	{
-		width: auto;
+	.sizeLien1-2 {
+		margin-left: 35%;
+
+	}
+	.cubeDetailsHebergements{
+		min-height: 150px;
+	}
+	.sizeHebergements{
+		min-height: auto;
+		padding: 20px;
+	}
+	.sizePopulaire{
+		min-height: auto;
+		padding: 20px;
+	}
+	.tabletteTitrePopulaire{
+		margin-top: 0;
+	}
+
+}
+
+@media screen and (max-width: 990px)
+	
+{
+	 	.mobileFiltre{
+		flex-direction:column;
+		align-items: flex-start;
+	} 
+	.filtreTextIcons{
+		margin-bottom: 20px;
+	}
+	#Hébergements{
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+	.blockPopulaire{
+		flex: none;
+		width: 90%;
+		margin-left: 0;
+		padding: 5%;
+	}
+	.blockHebergements{
+		flex: none;
+		width: 90%;
+		margin-right: 0;
+		margin-top: 50px;
+		padding: 5%;
 	}
 }
