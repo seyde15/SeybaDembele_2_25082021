@@ -480,7 +480,7 @@ background-color: #F2F2F2;
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 1295px)
+@media screen and (max-width: 1290px)
 {
 	.sizeLien1-2 {
 		margin-left: 35%;
@@ -530,4 +530,77 @@ background-color: #F2F2F2;
 		margin-top: 50px;
 		padding: 5%;
 	}
+}
+
+@media screen and (max-width: 600px)
+{
+	.sizeLien1-2{
+		order: 1;
+		width: 100%;
+		margin-left: 0;
+	}
+	.sizeLiens{
+		width: 90%;
+	}
+	.sizeLien1-2{
+		margin-left: 20%;
+	}
+	.blockHebergements{
+		height: auto;
+	}
+	.block1{
+		flex-direction: column;
+		margin-bottom: 0;
+
+	}
+	.block2{
+		flex-direction: column;
+		margin-top: 0;
+	}
+	.cubeHebergements{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.cubeDetailsHebergements{
+		min-height: auto;
+	}
+	.blocActivites{
+		flex-direction: column;
+		height: auto;
+	}
+	.cubeActivites{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.blocActivites2-3-5-6{
+		width: 100%;
+		height: auto;
+	}
+		cubeActivites2-3-5-6{
+		margin-bottom:50px ;
+		}
+		.imgActivites1, 
+		.imgActivites2, 
+		.imgActivites3, 
+		.imgActivites4, 
+		.imgActivites5, 
+		.imgActivites6, 
+		.imgActivites7{
+
+		height: 120px;	
+
+		}
+		.footer{
+			flex-direction: column;
+			height: auto;
+			align-items: flex-start;
+		}
+		.margeBlocFootMobile{
+			padding-left: 20px;
+		}
+		.margeBlocFoot-1{
+			margin-left: 0;
+		}
+
+
 }
