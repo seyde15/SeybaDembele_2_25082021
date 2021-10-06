@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- permet d'activer la responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<meta charset="utf-8">
 		<title>Reservia</title>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -41,9 +44,18 @@
 					value="Marseille, France" name="">
 				</div>
 				<span class="backBleu mobileNone flexCentre buttonSearch">Rechercher</span>
-				<span class="backBleu flexCentre desktopNone
-				iconSizeLoupe"><i class="fas fa-search"></i></span>
+				<!-- 
+				<div class="backBleu  desktopNone
+				iconSizeLoupe"><i class="fas fa-search "></i></div>
+				-->
+				<div class="flexAround  desktopNone ">
+				<div class=" backBleu flexBetween iconSizeLoupe">
+					<i class="fas fa-search fa-lg  filtreIconsMobile flexCentre"></i>
+					
+				</div>
+				</div>
 			</div>
+
 			<!-- FILTRES -->
 			<div class="mobileFiltre filtre margFiltre textGras">
 				<div class="margFiltreTitre"><h3>Filtres</h3></div>
