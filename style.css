@@ -89,8 +89,7 @@ background-color: #F2F2F2;
 }
 /*rajout d'une hauteur au header*/
 .sizeNav{
-	height: 100px;
-
+	height: auto;
 }
 /*bordure global des 3 éléments de search( map,input, bouton recherche )*/
 .bordureSearch{
@@ -478,10 +477,13 @@ background-color: #F2F2F2;
 	margin-right: 15%;
 }
 
+	.desktopNone{
+		display: none;}
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 1290px)
 {
+	
 	.sizeLien1-2 {
 		margin-left: 35%;
 
@@ -500,10 +502,10 @@ background-color: #F2F2F2;
 	.tabletteTitrePopulaire{
 		margin-top: 0;
 	}
-
+	
 }
 
-@media screen and (max-width: 990px)
+@media screen and (max-width: 900px)
 	
 {
 	 	.mobileFiltre{
@@ -530,8 +532,8 @@ background-color: #F2F2F2;
 		margin-top: 50px;
 		padding: 5%;
 	}
-}
 
+}
 @media screen and (max-width: 600px)
 {
 	.sizeLien1-2{
@@ -539,12 +541,25 @@ background-color: #F2F2F2;
 		width: 100%;
 		margin-left: 0;
 	}
+	.sizeLienMobile{
+		width: 50%;
+		border-top: none;
+		border-bottom: 5px solid #F2F2F2;
+	}
+
+	.sizeLienMobile:hover{
+		border-top: 0;
+		border-bottom: 3px solid #0065FC;
+	}
 	.sizeLiens{
-		width: 90%;
+		width: 100%;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
-	.sizeLien1-2{
-		margin-left: 20%;
-	}
+	
+	
+	
+	
 	.blockHebergements{
 		height: auto;
 	}
@@ -602,5 +617,20 @@ background-color: #F2F2F2;
 			margin-left: 0;
 		}
 
+		
+		
+		
+		.mobileNone{
+			display: none;
+		}
+		.desktopNone{
+		display: block;}
+		.iconSizeLoupe{
+			width: 50px;
+			height: 50px;
+			border-radius: 10px ;
 
+		}
+
+		
 }
