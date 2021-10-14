@@ -55,7 +55,7 @@ background-color: #F2F2F2;
 /*HEADER*/
 /*taille du block qui contient les liens*/
 .sizeLiens{
-	width: 100  %;
+	width: 100%;
 }
 /*taille d'hebergement et activités*/
 .sizeLien1-2{
@@ -132,7 +132,7 @@ background-color: #F2F2F2;
 /*espacer les éléments du haut et du bas*/
 .margFiltre{
 	margin-top: 50px;
-	margin-bottom: 4Opx;
+	margin-bottom: 40px;
 }
 /*espacer le titre */
 .margFiltreTitre{
