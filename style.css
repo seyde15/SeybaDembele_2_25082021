@@ -486,7 +486,7 @@ background-color: #F2F2F2;
 
 	.desktopNone{
 		display: none;}
-/*MEDIA QUERIES*/
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES*/
 
 @media screen and (max-width: 1290px)
 {
@@ -585,9 +585,15 @@ background-color: #F2F2F2;
 	.cubeDetailsHebergements{
 		min-height: auto;
 	}
+	.activitesMobile{
+		width: 100%;
+
+	}
+	}
 	.blocActivites{
 		flex-direction: column;
 		height: auto;
+		
 	}
 	.cubeActivites{
 		width: 100%;
@@ -635,4 +641,7 @@ background-color: #F2F2F2;
 		}
 
 			
+}
+.paddingGeneral{
+	padding: 40px;
 }
