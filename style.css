@@ -541,7 +541,7 @@ background-color: #F2F2F2;
 	}
 
 }
-@media screen and (max-width: 600px)
+@media screen and (max-width: 750px)
 {
 	.sizeLien1-2{
 		order: 1;
