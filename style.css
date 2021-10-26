@@ -485,7 +485,13 @@ background-color: #F2F2F2;
 }
 
 	.desktopNone{
-		display: none;}
+		display: none;
+	}
+	
+.paddingGeneral{
+	padding: 30px;
+
+}
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 1290px)
@@ -512,9 +518,14 @@ background-color: #F2F2F2;
 	
 }
 
-@media screen and (max-width: 900px)
+@media screen and (max-width:900px)
 	
 {
+	.sizeLien1-2{
+		
+		width: 100%;
+		margin-left: 0;}
+
 	 	.mobileFiltre{
 		flex-direction:column;
 		align-items: flex-start;
@@ -524,7 +535,7 @@ background-color: #F2F2F2;
 	}
 	#Hébergements{
 		flex-direction: column-reverse;
-		width: 100%;
+		width: 90%;
 	}
 	.blockPopulaire{
 		flex: none;
@@ -541,7 +552,7 @@ background-color: #F2F2F2;
 	}
 
 }
-@media screen and (max-width: 750px)
+@media screen and (max-width: 600px)
 {
 	.sizeLien1-2{
 		order: 1;
@@ -615,9 +626,10 @@ background-color: #F2F2F2;
 			flex-direction: column;
 			height: auto;
 			align-items: flex-start;
+			
 		}
 		.margeBlocFootMobile{
-			padding-left: 20px;
+			padding-left: 10px;
 		}
 		.margeBlocFoot-1{
 			margin-left: 0;
@@ -632,6 +644,10 @@ background-color: #F2F2F2;
 			height: 50px;
 			border-radius: 10px ;
 
+		}
+		.mobileBlocRecherche{
+			width: 90%;
+			padding-right: 50px;
 		}
 
 			
